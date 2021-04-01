@@ -1,5 +1,7 @@
 class Client():
-    #установка типов
+    
+    # Установка типов
+    
     __UnicID = int
     __surname = str
     __name = str
@@ -13,7 +15,8 @@ class Client():
         self.setSname(secondname)
         self.setPassdate(passdate)
         self.setComment(comment)
-    #методы set-get
+        
+    # Методы set-get
     def setUID(self, value): self.__UnicID = value
     def setSurname(self, value): self.__surname = value
     def setName(self, value): self.__name = value
