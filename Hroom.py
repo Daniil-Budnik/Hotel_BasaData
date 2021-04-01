@@ -11,7 +11,7 @@ class HRoom():
         self.setLcomfort(lcomfort)
         self.setCost(cost)
 
-    #методы set-get
+    # Методы set-get
     def setRoom(self, value): self.__room = value
     def setCapacity(self, value): self.__capacity = value
     def setLcomfort(self, value): self.__lcomfort = value
