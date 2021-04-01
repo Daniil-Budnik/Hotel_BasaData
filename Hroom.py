@@ -1,5 +1,6 @@
 class HRoom():
-    #установка типов
+    
+    # Установка типов
     __room = int
     __capacity = int
     __lcomfort = str
