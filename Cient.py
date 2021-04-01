@@ -1,7 +1,6 @@
 class Client():
     
-    # Установка типов
-    
+    # Установка типов 
     __UnicID = int
     __surname = str
     __name = str
