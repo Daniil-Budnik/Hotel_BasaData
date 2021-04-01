@@ -2,21 +2,21 @@ import Cient as Cl
 import Hroom as rm
 
 class Settling():
-    #установка типов
+    
+    # Установка типов
     __dateIn = str
     __client = Cl.Client
     __room = rm.HRoom
     __dateOut = str
     __note = str
     def __init__(self,client,room,dateIn,dateOut,note):
-    #методы set-get
         self.setClient(client)    
         self.setRoom(room)
         self.setDateIn(dateIn)
         self.setDateOut(dateOut)
         self.setNote(note)
 
-    #методы set-get
+    # Методы set-get
     def setClient(self, value): self.__client = value
     def setRoom(self, value): self.__room = value
     def setDateIn(self, value): self.__dateIn = value
